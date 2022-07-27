@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+.container {
+    position: relative;
+    /* width: 1207px; 
+    height: 1024px; */
+
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: var(--pink);
+}
+
+
+/* Sample 1 */
+/* .fixed-width {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 750px;
+    height: 284px;
+    left: calc(50% - 750px/2 - 1px);
+    top: 370px;
+    right: 294px;
+    bottom: 370px;
+    background: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+.text-name {
+    position: absolute;
+    width: 424px;
+    height: 98px;
+    left: calc(50% - 424px/2 + 0.5px);
+    top: 93px;
+    right: 163px;
+    bottom: 93px;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: 97px;
+
+    color: var(--black);
+
+} */
+
+/* Sample 2 */
+
+
+.fixed-width {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 750px;
+    height: 284px;
+
+    left: calc(50% - 750px/2 + 0.5px);
+    top: calc(50% - 284px/2);
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    
+    /* right: 248px;
+    bottom: 370px; */
+
+
+
+    background: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+.text-name-2 {
+    position: absolute;
+    width: 424px;
+    height: 98px;
+
+    left: calc(50% - 424px/2 - 1px);
+    top: calc(50% - 98px/2);
+
+    /* right: 163px;
+    bottom: 93px; */
+
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: 97px;
+
+    color: var(--black);
+
+}

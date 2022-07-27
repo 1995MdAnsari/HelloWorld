@@ -1,0 +1,65 @@
+.container-div {
+    position: relative;
+    /* width: 1208px;
+    height: 1024px; */
+    min-width: 100%;
+    min-height: 100vh;
+
+    background: var(--pink);
+}
+
+.fit-screen {
+    position: absolute;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    left: 100px;
+    right: 100px;
+    top: 36.13%;
+    bottom: 36.13%; 
+    
+
+    background: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+
+.text-name-1 {
+    position: absolute;
+    width: 426px;
+    height: 98px;
+
+    left: 136.46px;
+    top:93px;
+    
+    /* left: calc(50% - 426px/2 + 1px);
+    top: calc(50% - 98px/2); */
+
+    /* right: 134.46px;
+    bottom: 93px; */
+
+    
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: 97px;
+
+    color: var(--black);
+}
+
+/* .fit-screen-1 
+{
+    position: absolute;
+
+    left: 21%;
+    right: 21%;
+    top: 70.13%;
+    bottom: 0; 
+
+    background: var(--yellow);
+    border: 1px solid var(--black);
+} */

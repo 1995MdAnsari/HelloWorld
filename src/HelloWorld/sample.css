@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.container{
+    position: relative;
+    /* width: 1300px;
+    height: 1024px; */
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: var(--pink);
+}
+.test 
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 750px;
+    height: 284px;
+    left: 275px;
+    top: 341px;
+    right:275px;
+    bottom: 370px;
+    background: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+.text 
+{
+    position: absolute;
+    width: 424px;
+    height: 97px;
+    top:94px;
+    left: 163px;
+    right: 163px;
+    bottom: 94px;
+    line-height: 97px;
+
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+    color: var(--black);
+}
