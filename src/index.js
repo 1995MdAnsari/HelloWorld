@@ -34,7 +34,7 @@ root.render(
 
     {/* <CenterAlign/> */}
     {/* <Sample/> */}
-    <FixedWidth />
-    {/* <Responsive/> */}
+    {/* <FixedWidth /> */}
+    <Responsive/>
   </React.StrictMode>
 );

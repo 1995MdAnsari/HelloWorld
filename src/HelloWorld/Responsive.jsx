@@ -6,7 +6,7 @@ const Responsive = () => {
   return (
     <div className='container-div'>
       <div className='fit-screen'>
-        <div className='text-name-1'>Hello world</div>
+        <div className='text-1'>Hello world</div>
       </div>
 
       {/* <div className='fit-screen-1'>

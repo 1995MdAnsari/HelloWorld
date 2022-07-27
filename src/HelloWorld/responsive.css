@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 .container-div {
     position: relative;
     /* width: 1208px;
     height: 1024px; */
+
     min-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 
     background: var(--pink);
 }
@@ -11,13 +13,8 @@
 .fit-screen {
     position: absolute;
 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-
-    left: 100px;
-    right: 100px;
+    left: 21.15%;
+    right: 21.15%;
     top: 36.13%;
     bottom: 36.13%; 
     
@@ -27,20 +24,14 @@
 }
 
 
-.text-name-1 {
+.text-1 {
     position: absolute;
     width: 426px;
     height: 98px;
 
-    left: 136.46px;
-    top:93px;
     
-    /* left: calc(50% - 426px/2 + 1px);
-    top: calc(50% - 98px/2); */
-
-    /* right: 134.46px;
-    bottom: 93px; */
-
+    left: calc(50% - 426px/2 + 1px);
+    top: calc(50% - 98px/2);
     
     font-family: var(--font-family);
     font-style: var(--font-style);
