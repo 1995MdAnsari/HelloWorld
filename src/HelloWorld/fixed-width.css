@@ -1,26 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 .outer-box{
     position: relative;
-    min-width: 800px;
-
+    /* width: 1357px;
+    height: 1072px; */
+    min-width: 100%;
     height: 100vh; 
     background-color: var(--pink);
 }
 
 
 .fixed-width {
+
     box-sizing: border-box;
     position: absolute;
+
     width: 750px;
     height: 284px;
+
 
     /* Taken from Figma */
     left: calc(50% - 750px/2 - 1px); 
     top: calc(50% - 284px/2);
 
+    /* moving its top left corner to the centre of its parent */
     /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    left: 50%; */
+
+    /* move inner-box leftwards by 50% of its width, along the x-axis
+       move inner-box upwards by 50% of its width, along the y-axis */
+
+    /* transform: translate(-50%, -50%);  */
 
 
     background: var(--yellow);
@@ -45,3 +54,10 @@
 
 }
 
+
+
+/* left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto; */

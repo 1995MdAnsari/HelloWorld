@@ -1,45 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-
-.container{
+.position-outer-box{
     position: relative;
-    /* width: 1300px;
-    height: 1024px; */
     min-width: 100%;
     height: 100vh;
     background-color: var(--pink);
 }
-.test 
-{
+
+.position-inner-box{
     box-sizing: border-box;
 
     position: absolute;
     width: 750px;
     height: 284px;
-
-    left: 284px;
-    top: 370px;
-
-
-
+    left: calc(50% - 750px/2 - 0.5px);
+    top: calc(50% - 284px/2);
+    
     background: var(--yellow);
     border: 1px solid var(--black);
 }
 
-.text 
-{
+.text-ele{
     position: absolute;
     width: 424px;
-    height: 97px;
+    height: 98px;
+    left: calc(50% - 424px/2 - 0.5px);
+    top: calc(50% - 98px/2);
 
-    left: 163px;
-    top: 94px;
-
-
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
     line-height: 97px;
 
-    font-size: var(--font-size);
-    font-family: var(--font-family);
-    font-weight: var(--font-weight);
-    font-style: var(--font-style);
-    color: var(--black);
+color: var(--black);
+
 }

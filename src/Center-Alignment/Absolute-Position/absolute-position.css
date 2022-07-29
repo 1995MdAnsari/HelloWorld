@@ -1,0 +1,35 @@
+.position-outer-box{
+    position: relative;
+    min-width: 100%;
+    height: 100vh;
+    background-color: var(--pink);
+}
+
+.position-inner-box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 750px;
+    height: 284px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+.text-ele{
+    position: absolute;
+    width: 424px;
+    height: 98px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -25px;   /* according to this DIV element's height */
+
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
