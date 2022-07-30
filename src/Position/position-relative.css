@@ -1,0 +1,21 @@
+.outer-block-div{
+
+    min-width: 100%;
+    height: 100vh;
+    background-color: var(--pink);
+}
+
+.inner-block-div{
+    position: absolute;
+    width: 550px;
+    height: 284px;
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+.text-hello{
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}

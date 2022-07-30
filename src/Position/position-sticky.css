@@ -1,0 +1,21 @@
+.outer-block-div{
+    background-color: var(--pink);
+}
+
+.inner-block-div{
+    width: 550px;
+    height: 284px;
+    position: sticky;
+
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+}
+
+.text-hello, h2{
+
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+
