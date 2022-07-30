@@ -7,6 +7,8 @@
     height: 284px;
     position: sticky;
 
+    top: 30px;
+
     background-color: var(--yellow);
     border: 1px solid var(--black);
 }

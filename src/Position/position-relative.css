@@ -6,9 +6,11 @@
 }
 
 .inner-block-div{
-    position: absolute;
+    position: relative;
     width: 550px;
     height: 284px;
+    /* top: 20px;
+    left: 20px; */
     background-color: var(--yellow);
     border: 1px solid var(--black);
 }
