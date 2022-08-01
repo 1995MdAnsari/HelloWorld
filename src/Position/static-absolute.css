@@ -5,7 +5,8 @@
 }
 
 .inner-block-div{
-    position: relative;
+    
+    position: absolute;
     width: 550px;
     height: 284px;
     top: 20px;
@@ -20,8 +21,6 @@
 
     width: 200px;
     height: 100px;
-    top: 20px;
-    left: 50px;
 
     border: 1px solid var(--black);
     font-family: var(--font-family);

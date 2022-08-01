@@ -4,7 +4,8 @@ import {Route, Switch} from 'react-router-dom';
 import AbsolutePosition from './Center-Alignment/Absolute-Position/AbsolutePosition.jsx';
 import Flex from './Center-Alignment/Flex/Flex.jsx';
 import Grid from './Center-Alignment/Grid/Grid.jsx';
-import Position from './Position/Position.jsx'
+import Position from './Position/Position.jsx';
+
 const App = () => {
   return (
 
